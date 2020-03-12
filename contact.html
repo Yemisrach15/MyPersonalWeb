@@ -5,7 +5,25 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
  </head>
- <body bgcolor=#000000>
-     
+ <body>
+     <br>
+     <table width="100%" height="100%">
+         <thead><font color=#ff9900 size="6"><center>Contact me using this form</center></font></thead>
+         <tbody align="center">
+         <form action="mailto:se.yemisrach.serawit@gmail.com" method="GET">
+            <br>
+            <tr><label for="fname"><font color=#aaaaaa size="4">First Name</font></label></tr><br><br>
+            <tr><input type="text" name="fname" size="40px" pattern="[A-Za-z]{2,20}" title="2 to 20 alphabetic characters only"></tr><br><br>
+            <tr><label for="lname"><font color=#aaaaaa size="4">Last Name</font></label></tr><br><br>
+            <tr><input type="text" name="lname" size="40px" pattern="[A-Za-z]{2,20}" title="2 to 20 alphabetic characters only"></tr><br><br>
+            <tr><label for="email"><font color=#aaaaaa size="4">E-mail</font></label></tr><br><br>
+            <tr><input type="email" name="email" size="40px" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Include an @, enter a part following @ or enter domain"></tr><br><br>
+            <tr><label for="msg"><font color=#aaaaaa size="4">Message</font></label></tr><br><br>
+            <tr><textarea name="msg" id="" cols="41" rows="10"></textarea></tr><br><br>
+            <button type="submit"><font color=#aaaaaa size="3">Submit</font></button>
+
+         </form>
+         </tbody>
+     </table>
  </body>
  </html>
